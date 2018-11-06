@@ -4,6 +4,8 @@ The purpose of this is to simplify Magento Development. Contained herein is a si
 
 To install clone the repo down then follow the steps below:
 
+## This assumes you have Docker installed if not visit https://docs.docker.com/install/
+
 1. Edit .env file
     * Change the SERVER_NAME & SERVER_ALIAS to match your website name or leave in test data
 2. Add the SERVER_NAME and SERVER_ALIAS to your host machine /etc/hosts file
