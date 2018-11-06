@@ -45,4 +45,4 @@ openssl req -new -newkey rsa:4096 -days 3650 -nodes -x509 -subj \
     -keyout docker/services/apache/${SERVER_NAME}.key -out docker/services/apache/${SERVER_NAME}.crt
 
 chmod -R 777 src
-docker-compose up -d
+./start
